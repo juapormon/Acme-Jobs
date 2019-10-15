@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 
 <!--
 - tiles.xml
@@ -18,7 +18,7 @@
 
 <tiles-definitions>
 
-	<definition name="anonymous/shout/list" extends="master">
+	<definition name="anonymous/shout/list" extends="master">		
 		<put-attribute name="body" type="template" value="../anonymous/shout/list.jsp" />
 	</definition>
 

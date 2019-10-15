@@ -20,23 +20,22 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	@Autowired
 	AnonymousShoutRepository repository;
 
+	// AbstractListService<Administrator, Shout> interface --------------------
 
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
-
 		return true;
 	}
+
 	@Override
 	public Collection<Shout> findMany(final Request<Shout> request) {
 		assert request != null;
-
 		Collection<Shout> result;
-
 		result = this.repository.findMany();
-
 		return result;
 	}
+
 	@Override
 	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
 		assert request != null;
