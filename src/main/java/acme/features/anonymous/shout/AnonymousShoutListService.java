@@ -20,7 +20,6 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	@Autowired
 	AnonymousShoutRepository repository;
 
-
 	// AbstractListService<Administrator, Shout> interface --------------------
 
 	@Override
@@ -42,6 +41,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert request != null;
 		assert entity != null;
 		assert model != null;
+
 		request.unbind(entity, model, "author", "text", "moment");
 	}
 

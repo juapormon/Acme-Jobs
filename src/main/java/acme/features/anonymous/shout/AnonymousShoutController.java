@@ -34,7 +34,7 @@ public class AnonymousShoutController extends AbstractController<Anonymous, Shou
 
 
 	// Constructors -----------------------------------------------------------
-
+	// de momento solo lista, si quisieramos hacer un create seria aqui.
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
