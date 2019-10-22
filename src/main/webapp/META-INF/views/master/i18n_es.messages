@@ -1,4 +1,3 @@
-
 # i18n_es.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
@@ -31,6 +30,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link-juapormon = Link favorito de Juapormon
 master.menu.anonymous.favourite-link-fragarroa = Link favorito de Fragarroa
+master.menu.anonymous.favourite-link-gonferde = Link favorito de Gonferde
 master.menu.anonymous.shout = Gritos
 master.menu.anonymous.bulletin-form = Portero Montaño bulletin formulario
 master.menu.anonymous.bulletin-list = Portero Montaño bulletin lista
