@@ -1,4 +1,3 @@
-
 # i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
@@ -11,14 +10,13 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #3274F3  
+master.banner.background = #FFE97F 
 
 # master.welcome ##############################################################
 
-master.welcome.title = Hello!
+master.welcome.title = Welcome!
 master.welcome.text = \
-	You are discovering a new way to have your \
-	project up and running!
+	Welcome to Acme-Jobs!
 
 # master.menu #################################################################
 
@@ -32,11 +30,11 @@ master.menu.sign-out = Sign out
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link-juapormon = Juapormon's favourite link
 master.menu.anonymous.favourite-link-fragarroa = Fragarroa's favourite link
-master.menu.anonymous.favourite-link-gonferde = Gonferde's favourite link
 master.menu.anonymous.shout = Shouts
 master.menu.anonymous.bulletin-form = Portero Montaño's bulletin form
 master.menu.anonymous.bulletin-list = Portero Montaño's bulletin list
-
+master.menu.anonymous.garcia-roales-bulletin-list = Garcia Roales Bulletin List
+master.menu.anonymous.garcia-roales-bulletin-form = Garcia Roales Bulletin Form
 
 # master.menu.administrator ###################################################
 
@@ -77,14 +75,14 @@ master.footer.label.spanish = Spanish
 
 # master.company ##############################################################
 
-master.company.title = Acme Jobs
+master.company.title = La compañía de Acme-Jobs
 master.company.text = \
-	Acme Jobs, Inc. is a  company that provides  \
-	Jobs for the people who satisfy the requirements of \
+	Acme-Jobs, Inc. is a fictitious fictitious company that provides a \
+	starter project for the students of the Design and Testing subject of the \
 	Software Engineering Curriculum of the University of Sevilla.
-master.company.name = Acme Jobs, Inc.
-master.company.address = Calle Bami 10, Sevilla, Andalucia, España
-master.company.phone = +001235820
+master.company.name = Acme-Jobs, Inc.
+master.company.address = Number Street, City, State, Country
+master.company.phone = +000 123 456
 master.company.email = contact@acme.com
 
 # master.license ##############################################################
@@ -98,4 +96,3 @@ master.license.text = \
 	automatically for a maximum of 31 days, and "language" to store your language \
 	preferences. Additionally, we store an item called "returnStack" in your browser's \
 	local storage to keep track of the document to which some buttons must return.
-
