@@ -1,3 +1,4 @@
+
 # i18n_es.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
@@ -30,6 +31,9 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link-juapormon = Link favorito de Juapormon
 master.menu.anonymous.favourite-link-fragarroa = Link favorito de Fragarroa
+master.menu.anonymous.shout = Gritos
+master.menu.anonymous.bulletin-form = Portero Montaño bulletin formulario
+master.menu.anonymous.bulletin-list = Portero Montaño bulletin lista
 master.menu.anonymous.garcia-roales-bulletin-list = Lista Garcia Roales Bulletin
 master.menu.anonymous.garcia-roales-bulletin-form = Formulatio Garcia Roales Bulletin
 
@@ -94,3 +98,4 @@ master.license.text = \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
 	
+
