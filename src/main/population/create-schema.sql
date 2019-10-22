@@ -20,6 +20,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `date_of_expiry` datetime(6),
+        `description` varchar(255),
+        `product` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
