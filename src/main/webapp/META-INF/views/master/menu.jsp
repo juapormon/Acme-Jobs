@@ -24,8 +24,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-fragarroa" action="https://twitter.com/"/>
       <acme:menu-suboption code="master.menu.anonymous.favourite-link-gonferde" action="http://www.google.es/"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/list"/>
-      <acme:menu-suboption code="master.menu.anonymous.bulletin-list" action="/anonymous/bulletin/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.bulletin-form" action="/anonymous/bulletin/create"/>
+      <acme:menu-suboption code="master.menu.anonymous.portero-montano-bulletin-list" action="/anonymous/portero-montano-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.portero-montano-bulletin-form" action="/anonymous/portero-montano-bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.garcia-roales-bulletin-list" action="/anonymous/garcia-roales-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.garcia-roales-bulletin-form" action="/anonymous/garcia-roales-bulletin/create"/>
 

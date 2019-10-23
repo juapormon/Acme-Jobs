@@ -32,8 +32,8 @@ master.menu.anonymous.favourite-link-juapormon = Link favorito de Juapormon
 master.menu.anonymous.favourite-link-fragarroa = Link favorito de Fragarroa
 master.menu.anonymous.favourite-link-gonferde = Link favorito de Gonferde
 master.menu.anonymous.shout = Gritos
-master.menu.anonymous.bulletin-form = Portero Montaño bulletin formulario
-master.menu.anonymous.bulletin-list = Portero Montaño bulletin lista
+master.menu.anonymous.portero-montano-bulletin-form = Portero Montaño bulletin formulario
+master.menu.anonymous.portero-montano-bulletin-list = Portero Montaño bulletin lista
 master.menu.anonymous.garcia-roales-bulletin-list = Lista Garcia Roales Bulletin
 master.menu.anonymous.garcia-roales-bulletin-form = Formulatio Garcia Roales Bulletin
 
