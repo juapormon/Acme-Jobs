@@ -31,19 +31,19 @@
 	
 	<!-- Bulletins -->
   
-  <bean id="bulletin01" class="acme.entities.bulletins.Bulletin">
+  <bean id="bulletin01" class="acme.entities.bulletins.PorteroMontanoBulletin">
 		<property name="product" value="avocado"/>
 		<property name="description" value="green and tasty"/>
 		<property name="dateOfExpiry" value="2019/11/09 11:00"/>
 	</bean>
 	
-	<bean id="bulletin02" class="acme.entities.bulletins.Bulletin">
+	<bean id="bulletin02" class="acme.entities.bulletins.PorteroMontanoBulletin">
 		<property name="product" value="rice"/>
 		<property name="description" value="white and healthy"/>
 		<property name="dateOfExpiry" value="2019/11/09 11:00"/>
 	</bean>
 	
-	<bean id="bulletin03" class="acme.entities.bulletins.Bulletin">
+	<bean id="bulletin03" class="acme.entities.bulletins.PorteroMontanoBulletin">
 		<property name="product" value="meat"/>
 		<property name="description" value="red and full of proteins"/>
 		<property name="dateOfExpiry" value="2019/11/04 11:00"/>
