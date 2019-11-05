@@ -2,65 +2,19 @@
 
 <!--
 - sample-data.xml
+-
+- Copyright (c) 2019 Rafael Corchuelo.
+-
+- In keeping with the traditional purpose of furthering education and research, it is
+- the policy of the copyright owner to permit non-commercial use and redistribution of
+- this software. It has been tested carefully, but it is not guaranteed for any particular
+- purposes.  The copyright owner does not offer any warranties or representations, nor do
+- they accept any liabilities with respect to them.
 -->
 
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
-	
-	<!-- Shouts -->
-	
-	<bean id="shout01" class="acme.entities.shouts.Shout">
-		<property name="author" value="John Doe"/>
-		<property name="text" value="I'm happy!"/>
-		<property name="moment" value="2019/09/09 10:00"/>
-	</bean>
-	
-	<bean id="shout02" class="acme.entities.shouts.Shout">
-		<property name="author" value="Jane Doe"/>
-		<property name="text" value="I'm the master of my room!"/>
-		<property name="moment" value="2019/08/09 15:55"/>
-	</bean>
-	
-	<bean id="shout03" class="acme.entities.shouts.Shout">
-		<property name="author" value="Foo Bar"/>
-		<property name="text" value="Just turning 20!"/>
-		<property name="moment" value="2019/09/07 00:00"/>
-	</bean>
-	
-	<!-- Bulletins -->
-  
-  <bean id="bulletin01" class="acme.entities.bulletins.PorteroMontanoBulletin">
-		<property name="product" value="avocado"/>
-		<property name="description" value="green and tasty"/>
-		<property name="dateOfExpiry" value="2019/11/09 11:00"/>
-	</bean>
-	
-	<bean id="bulletin02" class="acme.entities.bulletins.PorteroMontanoBulletin">
-		<property name="product" value="rice"/>
-		<property name="description" value="white and healthy"/>
-		<property name="dateOfExpiry" value="2019/11/09 11:00"/>
-	</bean>
-	
-	<bean id="bulletin03" class="acme.entities.bulletins.PorteroMontanoBulletin">
-		<property name="product" value="meat"/>
-		<property name="description" value="red and full of proteins"/>
-		<property name="dateOfExpiry" value="2019/11/04 11:00"/>
-	</bean>
-	
-	<bean id="GarciaRoalesBulletin01" class="acme.entities.bulletins.GarciaRoalesBulletin">
-		<property name="name" value="Francisco Javier"/>
-		<property name="surname" value="Garcia Roales"/>
-		<property name="uvus" value="fragarroa"/>
-		<property name="birth" value="1998/12/08 04:00"/>
-	</bean>
-	
-	<bean id="GarciaRoalesBulletin02" class="acme.entities.bulletins.GarciaRoalesBulletin">
-		<property name="name" value="Juan Pablo"/>
-		<property name="surname" value="Portero Montaño"/>
-		<property name="uvus" value="juapormon"/>
-		<property name="birth" value="1998/06/25 14:00"/>
-	</bean>
 
 </beans>

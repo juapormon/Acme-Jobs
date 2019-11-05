@@ -29,40 +29,12 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `garcia_roales_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `birth` datetime(6),
-        `name` varchar(255),
-        `surname` varchar(255),
-        `uvus` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `portero_montano_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `date_of_expiry` datetime(6),
-        `description` varchar(255),
-        `product` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `shout` (
-       `id` integer not null,
-        `version` integer not null,
-        `author` varchar(255),
-        `moment` datetime(6),
-        `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

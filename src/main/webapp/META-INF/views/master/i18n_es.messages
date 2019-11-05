@@ -16,7 +16,8 @@ master.banner.background = #FFE97F
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme-Jobs!
+	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
+	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
 
@@ -28,14 +29,7 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link-juapormon = Link favorito de Juapormon
-master.menu.anonymous.favourite-link-fragarroa = Link favorito de Fragarroa
-master.menu.anonymous.favourite-link-gonferde = Link favorito de Gonferde
-master.menu.anonymous.shout = Gritos
-master.menu.anonymous.portero-montano-bulletin-form = Portero Montaño bulletin formulario
-master.menu.anonymous.portero-montano-bulletin-list = Portero Montaño bulletin lista
-master.menu.anonymous.garcia-roales-bulletin-list = Lista Garcia Roales Bulletin
-master.menu.anonymous.garcia-roales-bulletin-form = Formulatio Garcia Roales Bulletin
+master.menu.anonymous.favourite-link = Enlace favorito
 
 # master.menu.administrator ###################################################
 
@@ -78,13 +72,11 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía de Acme-Jobs
 master.company.text = \
-	Acme-Jobs, Inc. es una compañía fictícia que proporciona un proyecto \
-	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
-	en Ingeniería del Software de la Universidad de Sevilla.
+	Acme-Jobs, Inc. Made by: proyect group 90
 master.company.name = Acme-Jobs, Inc.
-master.company.address = Calle, número, Ciudad, Estado, País
-master.company.phone = +000 123 456
-master.company.email = contact@acme.com
+master.company.address = 2 Pino Pudio, Sevilla, Andalucia, España
+master.company.phone = +34 630674998
+master.company.email = fragarroa@alum.us.es
 
 # master.license ##############################################################
 
@@ -98,4 +90,3 @@ master.license.text = \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
 	
-

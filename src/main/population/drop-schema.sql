@@ -27,13 +27,7 @@
 
     drop table if exists `consumer`;
 
-    drop table if exists `garcia_roales_bulletin`;
-
-    drop table if exists `portero_montano_bulletin`;
-
     drop table if exists `provider`;
-
-    drop table if exists `shout`;
 
     drop table if exists `user_account`;
 

@@ -10,7 +10,8 @@
 
 This is the Acme-Jobs project, which is intended to be a core learning asset for the students
 who have enroled the Design and Testing subject of the Software Engineering curriculum of the 
-University of Sevilla.  This project provides a template our students can use to get their projects 
+University of Sevilla. This project provides a template our students can use to get their projects 
 up and running very quickly.
-I would like to include here some usefull information about my project, but in this moment I actually 
-do not have anything interesting to put in.
+
+Proyect group: 90
+Collaborators: Juan Pablo Portero Montaño, Francisco Javier García Roales, Gonzalo Fernandez de la Torre
