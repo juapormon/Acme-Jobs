@@ -16,6 +16,84 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!-- Requests -->
+	<bean id="request01" class="acme.entities.requests.Request">
+		<property name="title" value="Request1"/>
+		<property name="moment" value="2019/01/01 01:00"/>
+		<property name="deadline" value="2020/01/01 01:00"/>
+		<property name="text" value="Request de ejemplo 01"/>
+		<property name="reward" value="EUR 100"/>
+		<property name="ticker" value="RAAAA-00001"/>
+	</bean>
+	
+	<bean id="request02" class="acme.entities.requests.Request">
+		<property name="title" value="Request2"/>
+		<property name="moment" value="2018/01/01 01:00"/>
+		<property name="deadline" value="2021/01/01 01:00"/>
+		<property name="text" value="Request de ejemplo 02"/>
+		<property name="reward" value="EUR 200"/>
+		<property name="ticker" value="RAAAB-00002"/>
+	</bean>
+	
+	<bean id="request03" class="acme.entities.requests.Request">
+		<property name="title" value="Request3"/>
+		<property name="moment" value="2017/01/01 01:00"/>
+		<property name="deadline" value="2022/01/01 01:00"/>
+		<property name="text" value="Request de ejemplo 01"/>
+		<property name="reward" value="EUR 300"/>
+		<property name="ticker" value="RAAAC-00003"/>
+	</bean>
+	
+	<bean id="request04" class="acme.entities.requests.Request">
+		<property name="title" value="Request4"/>
+		<property name="moment" value="2016/01/01 01:00"/>
+		<property name="deadline" value="2019/01/02 01:00"/>
+		<property name="text" value="Request no mostrada por deadline ya concluída"/>
+		<property name="reward" value="EUR 400"/>
+		<property name="ticker" value="RAAAD-00004"/>
+	</bean>
+	
+	<!-- Offers -->
+	<bean id="offer01" class="acme.entities.offers.Offer">
+		<property name="title" value="Offer1"/>
+		<property name="moment" value="2019/01/01 01:00"/>
+		<property name="deadline" value="2020/01/01 01:00"/>
+		<property name="text" value="Offer de ejemplo 01"/>
+		<property name="minReward" value="EUR 100"/>
+		<property name="maxReward" value="EUR 600"/>
+		<property name="ticker" value="OAAAA-00001"/>
+	</bean>
+	
+	<bean id="offer02" class="acme.entities.offers.Offer">
+		<property name="title" value="Offer2"/>
+		<property name="moment" value="2018/01/01 01:00"/>
+		<property name="deadline" value="2021/01/01 01:00"/>
+		<property name="text" value="Offer de ejemplo 02"/>
+		<property name="minReward" value="EUR 200"/>
+		<property name="maxReward" value="EUR 700"/>
+		<property name="ticker" value="OAAAB-00002"/>
+	</bean>
+	
+	<bean id="offer03" class="acme.entities.offers.Offer">
+		<property name="title" value="Offer3"/>
+		<property name="moment" value="2017/01/01 01:00"/>
+		<property name="deadline" value="2022/01/01 01:00"/>
+		<property name="text" value="Offer de ejemplo 03"/>
+		<property name="minReward" value="EUR 300"/>
+		<property name="maxReward" value="EUR 800"/>
+		<property name="ticker" value="OAAAC-00003"/>
+	</bean>
+	
+	<bean id="offer04" class="acme.entities.offers.Offer">
+		<property name="title" value="Offer4"/>
+		<property name="moment" value="2016/01/01 01:00"/>
+		<property name="deadline" value="2019/01/02 01:00"/>
+		<property name="text" value="Offer no mostrada por deadline ya concluída"/>
+		<property name="minReward" value="EUR 400"/>
+		<property name="maxReward" value="EUR 900"/>
+		<property name="ticker" value="OAAAD-00004"/>
+	</bean>
 
 	<bean id="investor01" class="acme.entities.investors.Investor">
 		<property name="name" value="Javier"/>
