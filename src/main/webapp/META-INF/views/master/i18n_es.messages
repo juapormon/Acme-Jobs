@@ -28,7 +28,15 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.investor = Inversores
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autentificado
+master.menu.authenticated.request = Solicitudes
+master.menu.authenticated.offer = Ofertas
+master.menu.authenticated.investor = Inversores
+master.menu.authenticated.challenge = Retos
 
 # master.menu.administrator ###################################################
 
@@ -47,12 +55,10 @@ master.menu.authenticated.companyRecord.list = Lista Company Record
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
-master.menu.consumer.favourite-link = Enlace favorito
 
 # master.menu.user-account ####################################################
 
