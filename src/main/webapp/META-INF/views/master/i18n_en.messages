@@ -28,12 +28,15 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
+master.menu.anonymous.investor = Investors
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.request = Requests
 master.menu.authenticated.offer = Offers
+master.menu.authenticated.investor = Investors
+master.menu.authenticated.challenge = Challenges
 
 # master.menu.administrator ###################################################
 
