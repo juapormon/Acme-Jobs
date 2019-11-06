@@ -28,6 +28,9 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
+master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.announcement.list= Announcement list
+master.menu.anonymous.companyRecord.list= Company Record list
 master.menu.anonymous.investor = Investors
 
 # master.menu.authenticated ###################################################
@@ -43,6 +46,13 @@ master.menu.authenticated.challenge = Challenges
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.announcement.list = Announcement list
+
+# master.menu.authenticated #####################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcement.list = Announcement list
+master.menu.authenticated.companyRecord.list = Company Record list
 
 # master.menu.provider ########################################################
 
