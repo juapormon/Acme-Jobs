@@ -35,6 +35,14 @@ master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.announcement.list = Lista Announcement
+
+# master.menu.authenticated #####################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcement.list = Lista Announcement
+master.menu.authenticated.companyRecord.list = Lista Company Record
+
 
 # master.menu.provider ########################################################
 
