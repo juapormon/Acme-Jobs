@@ -29,6 +29,12 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autentificado
+master.menu.authenticated.request = Solicitudes
+master.menu.authenticated.offer = Ofertas
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
