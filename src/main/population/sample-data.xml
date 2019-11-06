@@ -17,4 +17,50 @@
 
 	<import resource="conversion-service.xml" />
 
+	<bean id="investor01" class="acme.entities.investors.Investor">
+		<property name="name" value="Javier"/>
+		<property name="sector" value="gold"/>
+		<property name="statement" value="active"/>
+		<property name="stars" value="2"/>
+	</bean>
+	
+	<bean id="investor02" class="acme.entities.investors.Investor">
+		<property name="name" value="James"/>
+		<property name="sector" value="houses"/>
+		<property name="statement" value="waiting"/>
+		<property name="stars" value="4"/>
+	</bean>
+	
+	<bean id="investor03" class="acme.entities.investors.Investor">
+		<property name="name" value="Eduardo"/>
+		<property name="sector" value="cryptos"/>
+		<property name="statement" value="ready for buying"/>
+		<property name="stars" value="5"/>
+	</bean>
+	
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Meals"/>
+		<property name="description" value="complete all meals"/>
+		<property name="deadLine" value="2019/12/11 23:59"/>
+		<property name="GoldGoal" value="have breakfast" />
+		<property name="GoldReward" value="30€" />
+		<property name="SilverGoal" value="have lunch" />
+		<property name="SilverReward" value="20€" />
+		<property name="BronzeGoal" value="have dinner" />
+		<property name="BronzeReward" value="10€" />
+	</bean>
+	
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="go running"/>
+		<property name="description" value="time running"/>
+		<property name="deadLine" value="2019/12/11 23:59"/>
+		<property name="GoldGoal" value="run two hours" />
+		<property name="GoldReward" value="30€" />
+		<property name="SilverGoal" value="run one hour" />
+		<property name="SilverReward" value="20€" />
+		<property name="BronzeGoal" value="run half an hour" />
+		<property name="BronzeReward" value="10€" />
+	</bean>
+	
+
 </beans>
