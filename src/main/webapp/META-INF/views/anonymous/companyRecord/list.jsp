@@ -5,8 +5,14 @@
 
 <acme:list>
 
-	<acme:list-column code="anonymous.companyRecord.list.label.companyName" path="companyName" width="33%"/>
-	<acme:list-column code="anonymous.companyRecord.list.label.sector" path="sector" width="33%"/>
-	<acme:list-column code="anonymous.companyRecord.list.label.ceo" path="ceo" width="34%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.companyName" path="companyName" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.sector" path="sector" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.ceo" path="ceo" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.description" path="description" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.url" path="url" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.phone" path="phone" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.email" path="email" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.incorporated" path="incorporated" width="11%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.stars" path="stars" width="11%"/>
 
 </acme:list>

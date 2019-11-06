@@ -35,10 +35,11 @@ public class AnonymousAnnouncementListService implements AbstractListService<Ano
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "moment", "title");
+		request.unbind(entity, model, "title", "moment", "moreInfo", "text");
 
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Collection<Announcement> findMany(final Request<Announcement> request) {
 		// TODO Auto-generated method stub

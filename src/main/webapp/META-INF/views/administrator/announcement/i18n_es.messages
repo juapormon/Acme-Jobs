@@ -1,5 +1,7 @@
 administrator.announcement.list.label.moment= Momento
 administrator.announcement.list.label.title= Título
+administrator.announcement.list.label.moreInfo= Más info
+administrator.announcement.list.label.text= Texto
 
 administrator.announcement.form.label.title= Título:
 administrator.announcement.form.label.moment= Momento:

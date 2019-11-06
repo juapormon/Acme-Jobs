@@ -1,7 +1,9 @@
 
 package acme.features.authenticated.announcement;
 
+import java.util.Calendar;
 import java.util.Collection;
+import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,18 +35,23 @@ public class AuthenticatedAnnouncementListService implements AbstractListService
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "moment", "title");
+		request.unbind(entity, model, "title", "moment", "moreInfo", "text");
 
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Collection<Announcement> findMany(final Request<Announcement> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
 
 		Collection<Announcement> result;
+		Calendar calendar = Calendar.getInstance();
+		Date moment = calendar.getTime();
+		int month = moment.getMonth();
+		moment.setMonth(month - 1);
 
-		result = this.repository.findManyAll();
+		result = this.repository.findManyByMonth(moment);
 
 		return result;
 	}

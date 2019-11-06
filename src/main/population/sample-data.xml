@@ -120,25 +120,62 @@
 		<property name="title" value="Meals"/>
 		<property name="description" value="complete all meals"/>
 		<property name="deadLine" value="2019/12/11 23:59"/>
-		<property name="GoldGoal" value="have breakfast" />
-		<property name="GoldReward" value="30€" />
-		<property name="SilverGoal" value="have lunch" />
-		<property name="SilverReward" value="20€" />
-		<property name="BronzeGoal" value="have dinner" />
-		<property name="BronzeReward" value="10€" />
+		<property name="goldGoal" value="have breakfast" />
+		<property name="goldReward" value="EUR 30" />
+		<property name="silverGoal" value="have lunch" />
+		<property name="silverReward" value="EUR 20" />
+		<property name="bronzeGoal" value="have dinner" />
+		<property name="bronzeReward" value="EUR 10" />
 	</bean>
 	
 	<bean id="challenge02" class="acme.entities.challenges.Challenge">
 		<property name="title" value="go running"/>
 		<property name="description" value="time running"/>
 		<property name="deadLine" value="2019/12/11 23:59"/>
-		<property name="GoldGoal" value="run two hours" />
-		<property name="GoldReward" value="30€" />
-		<property name="SilverGoal" value="run one hour" />
-		<property name="SilverReward" value="20€" />
-		<property name="BronzeGoal" value="run half an hour" />
-		<property name="BronzeReward" value="10€" />
+		<property name="goldGoal" value="run two hours" />
+		<property name="goldReward" value="EUR 30" />
+		<property name="silverGoal" value="run one hour" />
+		<property name="silverReward" value="EUR 20" />
+		<property name="bronzeGoal" value="run half an hour" />
+		<property name="bronzeReward" value="EUR 10" />
 	</bean>
 	
-
+	<bean id="announcement01" class="acme.entities.announcements.Announcement">
+		<property name="title" value="First announcement"/>
+		<property name="moment" value="2019/10/10 00:00"/>
+		<property name="moreInfo" value="http://www.google.es/"/>
+		<property name="text" value="This is a text for the first announcement"/>
+	</bean>
+	
+	<bean id="announcement02" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Second announcement"/>
+		<property name="moment" value="2018/10/10 01:00"/>
+		<property name="moreInfo" value="http://www.twitter.com/"/>
+		<property name="text" value="This is a text for the second announcement"/>
+	</bean>
+	
+	<bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
+		<property name="companyName" value="Acme Jobs"/>
+		<property name="sector" value="IT"/>
+		<property name="ceo" value="The boss"/>
+		<property name="description" value="The description of the company"/>
+		<property name="url" value="http://www.example.com/"/>
+		<property name="phone" value="954123456"/>
+		<property name="email" value="acmejobs@acmejobs.com"/>
+		<property name="incorporated" value="true"/>
+		<property name="stars" value="5"/>
+	</bean>
+	
+	<bean id="companyRecord02" class="acme.entities.companyRecords.CompanyRecord">
+		<property name="companyName" value="Acme Jobs 2"/>
+		<property name="sector" value="IT"/>
+		<property name="ceo" value="The other boss"/>
+		<property name="description" value="Another description"/>
+		<property name="url" value="http://www.example.com/"/>
+		<property name="phone" value="954999888777"/>
+		<property name="email" value="acmejobs2@acmejobs.com"/>
+		<property name="incorporated" value="false"/>
+		<property name="stars"><null/></property>
+	</bean>
+	
 </beans>
