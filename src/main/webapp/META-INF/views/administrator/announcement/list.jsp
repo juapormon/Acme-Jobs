@@ -5,9 +5,7 @@
 
 <acme:list>
 
-	<acme:list-column code="administrator.announcement.list.label.moment" path="moment" width="25%"/>
-	<acme:list-column code="administrator.announcement.list.label.title" path="title" width="25%"/>
-	<acme:list-column code="administrator.announcement.list.label.moreInfo" path="moreInfo" width="25%"/>
-	<acme:list-column code="administrator.announcement.list.label.text" path="text" width="25%"/>
+	<acme:list-column code="administrator.announcement.list.label.moment" path="moment" width="20%"/>
+	<acme:list-column code="administrator.announcement.list.label.title" path="title" width="80%"/>
 
 </acme:list>

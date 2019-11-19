@@ -1,50 +1,50 @@
 
-package acme.features.administrator.announcement;
+package acme.features.administrator.investor;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.announcements.Announcement;
+import acme.entities.investors.Investor;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Administrator;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AdministratorAnnouncementListService implements AbstractListService<Administrator, Announcement> {
+public class AdministratorInvestorListService implements AbstractListService<Administrator, Investor> {
 
 	@Autowired
-	AdministratorAnnouncementRepository repository;
+	AdministratorInvestorRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<Announcement> request) {
+	public boolean authorise(final Request<Investor> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<Announcement> request, final Announcement entity, final Model model) {
+	public void unbind(final Request<Investor> request, final Investor entity, final Model model) {
 		// TODO Auto-generated method stub
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "moment", "moreInfo", "text");
+		request.unbind(entity, model, "name", "sector", "statement", "stars");
 
 	}
 
 	@Override
-	public Collection<Announcement> findMany(final Request<Announcement> request) {
+	public Collection<Investor> findMany(final Request<Investor> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
 
-		Collection<Announcement> result;
+		Collection<Investor> result;
 
-		result = this.repository.findManyAnnouncements();
+		result = this.repository.findManyInvestors();
 
 		return result;
 	}

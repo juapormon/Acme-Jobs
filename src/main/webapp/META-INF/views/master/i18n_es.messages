@@ -48,6 +48,11 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.announcement = Anuncios
+master.menu.administrator.announcement.create = Formulario Anuncios
+master.menu.administrator.investor.create= Formulario Inversores
+master.menu.administrator.investor.list= Lista Inversores
+master.menu.administrator.challenge.create = Formulario Inversores
+master.menu.administrator.challenge.list = Lista Inversores
 
 # master.menu.provider ########################################################
 

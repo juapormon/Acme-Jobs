@@ -1,24 +1,24 @@
 
-package acme.features.administrator.announcement;
+package acme.features.administrator.investor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.announcements.Announcement;
+import acme.entities.investors.Investor;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Administrator;
 import acme.framework.services.AbstractShowService;
 
 @Service
-public class AdministratorAnnouncementShowService implements AbstractShowService<Administrator, Announcement> {
+public class AdministratorInvestorShowService implements AbstractShowService<Administrator, Investor> {
 
 	@Autowired
-	private AdministratorAnnouncementRepository repository;
+	private AdministratorInvestorRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<Announcement> request) {
+	public boolean authorise(final Request<Investor> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
 
@@ -26,25 +26,25 @@ public class AdministratorAnnouncementShowService implements AbstractShowService
 	}
 
 	@Override
-	public void unbind(final Request<Announcement> request, final Announcement entity, final Model model) {
+	public void unbind(final Request<Investor> request, final Investor entity, final Model model) {
 		// TODO Auto-generated method stub
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "moment", "moreInfo", "text");
+		request.unbind(entity, model, "name", "sector", "statement", "stars");
 	}
 
 	@Override
-	public Announcement findOne(final Request<Announcement> request) {
+	public Investor findOne(final Request<Investor> request) {
 		// TODO Auto-generated method stub
 		assert request != null;
 
-		Announcement result;
+		Investor result;
 		int id;
 
 		id = request.getModel().getInteger("id");
-		result = this.repository.findOneAnnouncementById(id);
+		result = this.repository.findOneInvestorById(id);
 
 		return result;
 	}
