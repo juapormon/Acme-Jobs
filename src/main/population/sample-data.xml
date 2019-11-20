@@ -17,6 +17,60 @@
 
 	<import resource="conversion-service.xml" />
 	
+	<!-- Bulletins -->
+	
+		<!-- Francisco Javier García Roales bulletins -->
+	
+	<bean id="GarciaRoalesBulletin01" class="acme.entities.bulletins.GarciaRoalesBulletin">
+		<property name="name" value="Francisco Javier"/>
+		<property name="surname" value="Garcia Roales"/>
+		<property name="uvus" value="fragarroa"/>
+		<property name="birth" value="1998/12/08 04:00"/>
+	</bean>
+	
+	<bean id="GarciaRoalesBulletin02" class="acme.entities.bulletins.GarciaRoalesBulletin">
+		<property name="name" value="Juan Pablo"/>
+		<property name="surname" value="Portero Montaño"/>
+		<property name="uvus" value="juapormon"/>
+		<property name="birth" value="1998/06/25 14:00"/>
+	</bean>
+		
+		<!-- Juan Pablo Portero Montaño bulletins -->
+  
+  	<bean id="bulletin01" class="acme.entities.bulletins.PorteroMontanoBulletin">
+		<property name="product" value="avocado"/>
+		<property name="description" value="green and tasty"/>
+		<property name="dateOfExpiry" value="2019/11/09 11:00"/>
+	</bean>
+	
+	<bean id="bulletin02" class="acme.entities.bulletins.PorteroMontanoBulletin">
+		<property name="product" value="rice"/>
+		<property name="description" value="white and healthy"/>
+		<property name="dateOfExpiry" value="2019/11/09 11:00"/>
+	</bean>
+	
+	<bean id="bulletin03" class="acme.entities.bulletins.PorteroMontanoBulletin">
+		<property name="product" value="meat"/>
+		<property name="description" value="red and full of proteins"/>
+		<property name="dateOfExpiry" value="2019/11/04 11:00"/>
+	</bean>
+	
+		<!-- Gonzalo Fernandez de la Torre bulletins -->
+		
+	<bean id="g-bulletin01" class="acme.entities.bulletins.FernandezDeLaTorreBulletin">
+		<property name="author" value="Pepito"/>
+		<property name="text" value="Texto texto texto texto!"/>
+		<property name="moment" value="2019/09/07 00:00"/> 
+		<property name="language" value="Español"/>
+	</bean>
+	
+	<bean id="g-bulletin02" class="acme.entities.bulletins.FernandezDeLaTorreBulletin">
+		<property name="author" value="Jaimito"/>
+		<property name="text" value="Texto textazo textazo!"/>
+		<property name="moment" value="2019/09/06 00:00"/> 
+		<property name="language" value="Español"/>
+	</bean>
+	
 	<!-- Requests -->
 	<bean id="request01" class="acme.entities.requests.Request">
 		<property name="title" value="Request1"/>
@@ -126,6 +180,8 @@
 		<property name="silverReward" value="EUR 20" />
 		<property name="bronzeGoal" value="have dinner" />
 		<property name="bronzeReward" value="EUR 10" />
+		
+		
 	</bean>
 	
 	<bean id="challenge02" class="acme.entities.challenges.Challenge">
@@ -138,11 +194,12 @@
 		<property name="silverReward" value="EUR 20" />
 		<property name="bronzeGoal" value="run half an hour" />
 		<property name="bronzeReward" value="EUR 10" />
+		
 	</bean>
 	
 	<bean id="announcement01" class="acme.entities.announcements.Announcement">
 		<property name="title" value="First announcement"/>
-		<property name="moment" value="2019/10/10 00:00"/>
+		<property name="moment" value="2019/11/20 00:00"/>
 		<property name="moreInfo" value="http://www.google.es/"/>
 		<property name="text" value="This is a text for the first announcement"/>
 	</bean>

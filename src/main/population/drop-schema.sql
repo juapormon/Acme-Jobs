@@ -33,9 +33,15 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `fernandez_de_la_torre_bulletin`;
+
+    drop table if exists `garcia_roales_bulletin`;
+
     drop table if exists `investor`;
 
     drop table if exists `offer`;
+
+    drop table if exists `portero_montano_bulletin`;
 
     drop table if exists `provider`;
 
