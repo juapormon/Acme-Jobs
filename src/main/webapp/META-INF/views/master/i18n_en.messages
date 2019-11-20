@@ -28,6 +28,15 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
+master.menu.anonymous.favourite-link-juapormon = Juapormon's favourite link
+master.menu.anonymous.favourite-link-fragarroa = Fragarroa's favourite link
+master.menu.anonymous.favourite-link-gonferde = Gonferde's favourite link
+master.menu.anonymous.portero-montano-bulletin-list = Portero Montaño's bulletin list
+master.menu.anonymous.portero-montano-bulletin-create = Portero Montaño's bulletin create
+master.menu.anonymous.garcia-roales-bulletin-list = Garcia Roales's bulletin list
+master.menu.anonymous.garcia-roales-bulletin-create = Garcia Roales's bulletin create
+master.menu.anonymous.fernandez-de-la-torre-bulletin-list = Fernandez de la Torre's bulletin list
+master.menu.anonymous.fernandez-de-la-torre-bulletin-create = Fernandez de la Torre's bulletin create
 master.menu.anonymous.announcement.list = Announcements
 master.menu.anonymous.companyRecord.list = Company Records
 master.menu.anonymous.investor = Investors
