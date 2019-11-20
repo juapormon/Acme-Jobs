@@ -217,7 +217,7 @@
 		<property name="ceo" value="The boss"/>
 		<property name="description" value="The description of the company"/>
 		<property name="url" value="http://www.example.com/"/>
-		<property name="phone" value="954123456"/>
+		<property name="phone" value="+999 (9999) 9999999999"/>
 		<property name="email" value="acmejobs@acmejobs.com"/>
 		<property name="incorporated" value="true"/>
 		<property name="stars" value="5"/>
@@ -229,7 +229,7 @@
 		<property name="ceo" value="The other boss"/>
 		<property name="description" value="Another description"/>
 		<property name="url" value="http://www.example.com/"/>
-		<property name="phone" value="954999888777"/>
+		<property name="phone" value="+1 (0) 000000"/>
 		<property name="email" value="acmejobs2@acmejobs.com"/>
 		<property name="incorporated" value="false"/>
 		<property name="stars"><null/></property>

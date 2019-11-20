@@ -45,18 +45,16 @@
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
-		
-			<acme:menu-suboption code="master.menu.administrator.announcement" action="/administrator/announcement/list"/>
-			<acme:menu-suboption code="master.menu.administrator.announcement.create" action="/administrator/announcement/create"/>
-			<acme:menu-suboption code="master.menu.administrator.investor.create" action="/administrator/investor/create"/>	
+			<acme:menu-suboption code="master.menu.administrator.announcement.list" action="/administrator/announcement/list"/>
+			<acme:menu-suboption code="master.menu.administrator.announcement.create" action="/administrator/announcement/create"/>	
 			<acme:menu-suboption code="master.menu.administrator.investor.list" action="/administrator/investor/list"/>	
-			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create"/>	
-			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list"/>	
-			
-			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
-			<acme:menu-suboption code="master.menu.administrator.companyRecord" action="/administrator/company-record/list"/>
+			<acme:menu-suboption code="master.menu.administrator.investor.create" action="/administrator/investor/create"/>
+			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list"/>
+			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create"/>
+			<acme:menu-suboption code="master.menu.administrator.companyRecord.list" action="/administrator/company-record/list"/>
 			<acme:menu-suboption code="master.menu.administrator.companyRecord.create" action="/administrator/company-record/create"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
 

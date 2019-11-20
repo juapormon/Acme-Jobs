@@ -371,7 +371,7 @@ Investor
 + name: String {NotBlank}
 + sector: String {NotBlank}
 + statement: String {NotBlank}
-+ stars: Integer</panel_attributes>
++ stars: Integer {Range(0,5)}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

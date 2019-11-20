@@ -57,13 +57,13 @@ master.menu.authenticated.companyRecord = Registros de compañías
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
-master.menu.administrator.announcement = Anuncios
+master.menu.administrator.announcement.list = Lista anuncios
 master.menu.administrator.announcement.create = Crear anuncio
 master.menu.administrator.investor.list= Lista inversores
 master.menu.administrator.investor.create= Crear inversor
 master.menu.administrator.challenge.list = Lista retos
 master.menu.administrator.challenge.create = Crear reto
-master.menu.administrator.companyRecord = Lista registros de compañías
+master.menu.administrator.companyRecord.list = Lista registros de compañías
 master.menu.administrator.companyRecord.create = Crear registros de compañías
 
 # master.menu.provider ########################################################
