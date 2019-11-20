@@ -42,12 +42,15 @@ master.menu.authenticated.challenge = Retos
 master.menu.authenticated.announcement = Anuncios
 master.menu.authenticated.companyRecord = Registros de compañías
 
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.announcement = Anuncios
+master.menu.administrator.companyRecord = Company Records
+master.menu.administrator.companyRecord.create = Crear Company Records 
 
 # master.menu.provider ########################################################
 
