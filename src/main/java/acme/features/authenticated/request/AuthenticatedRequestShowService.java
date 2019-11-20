@@ -20,26 +20,21 @@ public class AuthenticatedRequestShowService implements AbstractShowService<Auth
 	public boolean authorise(final acme.framework.components.Request<Request> request) {
 		assert request != null;
 		return true;
-
 	}
 	@Override
 	public void unbind(final acme.framework.components.Request<Request> request, final Request entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
 		request.unbind(entity, model, "title", "moment", "deadline", "text", "reward", "ticker");
 	}
 	@Override
 	public Request findOne(final acme.framework.components.Request<Request> request) {
 		assert request != null;
-
 		Request result;
 		int id;
-
 		id = request.getModel().getInteger("id");
 		result = this.repository.FindOneById(id);
-
 		return result;
 	}
 

@@ -309,7 +309,7 @@ Request
 --
 + title: String {NotBlank}
 + moment: Date {Temporal(TIMESTAMP), Past}
-+ deadline: Date {Temporal(TIMESTAMP)}
++ deadline: Date {NotNull, Temporal(TIMESTAMP)}
 + text: String {NotBlank}
 + reward: Money {NotNull}
 + ticker: String {NotBlank, Column(unique=true), Pattern(regexp="^R[A-Z]{4}-[0-9]{5}$")}</panel_attributes>
@@ -328,7 +328,7 @@ Offer
 --
 + title: String {NotBlank}
 + moment: Date {Temporal(TIMESTAMP), Past}
-+ deadline: Date {Temporal(TIMESTAMP)}
++ deadline: Date {NotNull, Temporal(TIMESTAMP)}
 + text: String {NotBlank}
 + minReward: Money {NotNull}
 + maxReward: Money {NotNull}

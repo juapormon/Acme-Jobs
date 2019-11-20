@@ -28,16 +28,13 @@ public class AuthenticatedOfferListService implements AbstractListService<Authen
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
 		request.unbind(entity, model, "title", "moment", "deadline", "text", "minReward", "maxReward", "ticker");
 	}
 	@Override
 	public Collection<Offer> findMany(final acme.framework.components.Request<Offer> request) {
 		assert request != null;
-
 		Collection<Offer> result;
 		result = this.repository.findManyAll();
-
 		return result;
 	}
 
