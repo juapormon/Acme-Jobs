@@ -1,18 +1,14 @@
 
-package acme.entities.requests;
+package acme.entities.bulletins;
 
 import java.util.Date;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
-import javax.validation.constraints.Pattern;
 
-import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -20,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Request extends DomainEntity {
+public class GarciaRoalesBulletin extends DomainEntity {
 
 	// Serialisation identifier ------------------------------------------------------
 
@@ -29,25 +25,16 @@ public class Request extends DomainEntity {
 	// Attributes --------------------------------------------------------------------
 
 	@NotBlank
-	private String				title;
+	private String				name;
+
+	@NotBlank
+	private String				surname;
+
+	@NotBlank
+	private String				uvus;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
-	private Date				moment;
-
-	@NotNull
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date				deadline;
-
-	@NotBlank
-	private String				text;
-
-	@NotNull
-	private Money				reward;
-
-	@NotBlank
-	@Column(unique = true)
-	@Pattern(regexp = "^R[A-Z]{4}-[0-9]{5}$")
-	private String				ticker;
+	private Date				birth;
 
 }

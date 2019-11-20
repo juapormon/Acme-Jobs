@@ -72,6 +72,26 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `fernandez_de_la_torre_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `language` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `garcia_roales_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `birth` datetime(6),
+        `name` varchar(255),
+        `surname` varchar(255),
+        `uvus` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `investor` (
        `id` integer not null,
         `version` integer not null,
@@ -94,6 +114,15 @@
         `text` varchar(255),
         `ticker` varchar(255),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `portero_montano_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `date_of_expiry` datetime(6),
+        `description` varchar(255),
+        `product` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
