@@ -180,6 +180,8 @@
 		<property name="silverReward" value="EUR 20" />
 		<property name="bronzeGoal" value="have dinner" />
 		<property name="bronzeReward" value="EUR 10" />
+		
+		
 	</bean>
 	
 	<bean id="challenge02" class="acme.entities.challenges.Challenge">
@@ -192,6 +194,7 @@
 		<property name="silverReward" value="EUR 20" />
 		<property name="bronzeGoal" value="run half an hour" />
 		<property name="bronzeReward" value="EUR 10" />
+		
 	</bean>
 	
 	<bean id="announcement01" class="acme.entities.announcements.Announcement">

@@ -1,5 +1,5 @@
 
-package acme.features.administrator.announcement;
+package acme.features.administrator.challenge;
 
 import javax.annotation.PostConstruct;
 
@@ -7,29 +7,29 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.announcements.Announcement;
+import acme.entities.challenges.Challenge;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Administrator;
 
 @Controller
-@RequestMapping("/administrator/announcement/")
-public class AdministratorAnnouncementController extends AbstractController<Administrator, Announcement> {
+@RequestMapping("/administrator/challenge/")
+public class AdministratorChallengeController extends AbstractController<Administrator, Challenge> {
 
 	@Autowired
-	private AdministratorAnnouncementListService	listService;
+	private AdministratorChallengeListService	listService;
 
 	@Autowired
-	private AdministratorAnnouncementShowService	showService;
+	private AdministratorChallengeShowService	showService;
 
 	@Autowired
-	private AdministratorAnnouncementCreateService	createService;
+	private AdministratorChallengeCreateService	createService;
 
 	@Autowired
-	private AdministratorAnnouncementUpdateService	updateService;
+	private AdministratorChallengeUpdateService	updateService;
 
 	@Autowired
-	private AdministratorAnnouncementDeleteService	deleteService;
+	private AdministratorChallengeDeleteService	deleteService;
 
 
 	@PostConstruct
@@ -41,3 +41,7 @@ public class AdministratorAnnouncementController extends AbstractController<Admi
 		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
 	}
 }
+
+// DeadLine se considera moment_? es decir, tiene que ser generado automaticamente por el sistema?
+// En el update se tiene que modificar el moment?? por ejemplo ampliar la fecha limite?
+// Currency no me vale como constraint validator
